@@ -3,3 +3,8 @@ main = "./dist-region/index.js"
 compatibility_date = "2023-11-09"
 compatibility_flags = ["nodejs_compat"]
 
+[[d1_databases]]
+binding = "DB"                                       # i.e. available in your Worker on env.DB
+database_name = "rsc-workshop"
+database_id = "638670e4-b52d-430e-9551-04fbea5383ed"
+migrations_dir = "./migrations"                      # ADD THIS LINE
